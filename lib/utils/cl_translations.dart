@@ -1,0 +1,67 @@
+import 'package:get/get.dart';
+
+class CLTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_US': {
+          "Comments": "Comments",
+          "Messages": "Messages",
+          "Language": "Language",
+          "About": "About",
+          "Help": "Help",
+          "Privacy": "Privacy",
+          "Account": "Account",
+          "Settings": "Settings",
+          "Log out": "Log out",
+          "Add a comment": "Add a comment",
+          "View comments": "View comments",
+          "Follow": "Follow",
+          "Followers": "Followers",
+          "Following": "Following",
+          "Hub": "Hub",
+          "Activity": "Activity",
+          "Create a List": "Create a List",
+          "Add an Item": "Add an Item",
+          "Selected": "Selected",
+          "Category": "Category",
+          "Explore": "Explore",
+          "Cancel": "Cancel",
+          "List": "List",
+          "Item": "Item",
+          "Created": "Created",
+          "Saved": "Saved",
+          "Add": "Add",
+          'Edit Profile': 'Edit Profile'
+        },
+        'zh_CN': {
+          "Comments": "评论",
+          "Messages": "消息",
+          "Language": "语言",
+          "About": "关于",
+          "Help": "帮助",
+          "Privacy": "隐私",
+          "Account": "账户",
+          "Settings": "设置",
+          "Log out": "退出登录",
+          "Add a comment": "添加评论",
+          "View comments": "查看评论",
+          "Follow": "关注",
+          "Followers": "关注者",
+          "Following": "关注",
+          "Hub": "主页",
+          "Activity": "动态",
+          "Create a List": "列清单",
+          "Add an Item": "加条目",
+          "Selected": "精选",
+          "Category": "分类",
+          "Explore": "发现",
+          "Cancel": "取消",
+          "List": "清单",
+          "Item": "条目",
+          "Created": "创建的",
+          "Saved": "保存的",
+          "Add": "添加",
+          'Edit Profile': '修改资料'
+        }
+      };
+}
